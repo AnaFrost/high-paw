@@ -11,7 +11,10 @@ export default defineConfig({
 	build: {},
 	resolve: {
 		alias: {
-			'@src': path.resolve(__dirname, 'src'),
+			'@widgets': path.resolve(__dirname, 'src/widgets/'),
+			'@icons': path.resolve(__dirname, 'src/shared/icons/'),
+			'@images': path.resolve(__dirname, 'src/shared/images/'),
+			'@common': path.resolve(__dirname, 'src/common/'),
 		},
 	},
 });
