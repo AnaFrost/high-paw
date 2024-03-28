@@ -17,9 +17,10 @@
 		"jsx": "react-jsx",
 		"baseUrl": "./src",
 		"paths": {
-			"@common/*": ["common/*"],
-			"@icons": ["shared/icons/index.ts"],
 			"@widgets/*": ["widgets/*"],
+			"@entities/*": ["entities/*"],
+			"@features/*": ["features/*"],
+			"@icons": ["shared/icons/index.ts"],
 			"@images/*": ["shared/images/*"]
 		}
 	},

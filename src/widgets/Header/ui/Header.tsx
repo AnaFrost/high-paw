@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { LogoIcon, MoonIcon, SunIcon } from '@icons';
 
-import { Container } from '@common/Container';
-import { HeaderEl, ThemeSwitcher, Title, Wrapper, WrapperLogoTitle } from './Header.styled';
+import { Container, HeaderEl, ThemeSwitcher, Title, Wrapper, WrapperLogoTitle } from './Header.styled';
 
 export const Header = () => {
 	const [theme, setTheme] = useState('dark');
