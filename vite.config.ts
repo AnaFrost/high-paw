@@ -14,7 +14,8 @@ export default defineConfig({
 			'@widgets': path.resolve(__dirname, 'src/widgets/'),
 			'@icons': path.resolve(__dirname, 'src/shared/icons/index.ts'),
 			'@images': path.resolve(__dirname, 'src/shared/images/'),
-			'@common': path.resolve(__dirname, 'src/common/'),
+			'@entities': path.resolve(__dirname, 'src/entities/'),
+			'@features': path.resolve(__dirname, 'src/features/'),
 		},
 	},
 });

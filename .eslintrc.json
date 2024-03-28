@@ -20,8 +20,9 @@
 		"import/resolver": {
 			"alias": {
 				"map": [
-					["@common", "./src/common"],
 					["@widgets", "./src/widgets"],
+					["@entities", "./src/entities/"],
+					["@features", "./src/features/"],
 					["@images", "./src/shared/images"],
 					["@icons", "./src/shared/icons"]
 				],
