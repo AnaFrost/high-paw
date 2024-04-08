@@ -17,11 +17,13 @@
 		"jsx": "react-jsx",
 		"baseUrl": "./src",
 		"paths": {
+			"@store/*": ["app/store/*"],
 			"@widgets/*": ["widgets/*"],
 			"@entities/*": ["entities/*"],
 			"@features/*": ["features/*"],
 			"@icons": ["shared/icons/index.ts"],
-			"@images/*": ["shared/images/*"]
+			"@images/*": ["shared/images/*"],
+			"@uikit/*": ["shared/uikit/*"]
 		}
 	},
 	"include": ["src"],

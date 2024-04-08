@@ -11,11 +11,13 @@ export default defineConfig({
 	build: {},
 	resolve: {
 		alias: {
+			'@store': path.resolve(__dirname, 'src/app/store/'),
 			'@widgets': path.resolve(__dirname, 'src/widgets/'),
-			'@icons': path.resolve(__dirname, 'src/shared/icons/index.ts'),
-			'@images': path.resolve(__dirname, 'src/shared/images/'),
 			'@entities': path.resolve(__dirname, 'src/entities/'),
 			'@features': path.resolve(__dirname, 'src/features/'),
+			'@icons': path.resolve(__dirname, 'src/shared/icons/index.ts'),
+			'@images': path.resolve(__dirname, 'src/shared/images/'),
+			'@uikit': path.resolve(__dirname, 'src/shared/uikit/'),
 		},
 	},
 });

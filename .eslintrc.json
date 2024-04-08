@@ -20,11 +20,13 @@
 		"import/resolver": {
 			"alias": {
 				"map": [
+					["@store", "./src/app/store/"],
 					["@widgets", "./src/widgets"],
 					["@entities", "./src/entities/"],
 					["@features", "./src/features/"],
 					["@images", "./src/shared/images"],
-					["@icons", "./src/shared/icons"]
+					["@icons", "./src/shared/icons"],
+					["@uikit", "./src/shared/uikit/"]
 				],
 				"extensions": [".js", ".jsx", ".ts", ".tsx"]
 			}
