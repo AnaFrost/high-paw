@@ -1,3 +1,4 @@
+import { AddButton, EditButton } from '@uikit/Button';
 import { ContainerEl, ContainerInfoEl, UserBioEl, UserInfoEl, UserNameEl } from '../User.styled';
 
 interface IUserInfo {
@@ -13,9 +14,9 @@ export const UserInfo = ({ userName, userBio }: IUserInfo) => {
 					<UserNameEl>{userName}</UserNameEl>
 					<UserBioEl>{userBio}</UserBioEl>
 				</ContainerInfoEl>
-				{/* Edit profile modal */}
+				<EditButton />
 			</ContainerEl>
-			{/* Add card modal */}
+			<AddButton />
 		</UserInfoEl>
 	);
 };

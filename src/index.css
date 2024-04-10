@@ -28,6 +28,7 @@ body[data-theme='dark'] {
 	--colors-captcha: #545454;
 	--colors-bg: #292929;
 	--colors-ui-base: #ffffff;
+	--colors-btn-bg: #4b00ada8;
 }
 
 body[data-theme='light'] {
@@ -36,6 +37,7 @@ body[data-theme='light'] {
 	--colors-captcha: #937f6a;
 	--colors-bg: #f5d9bb;
 	--colors-ui-base: #545454;
+	--colors-btn-bg: #f5927cb8;
 }
 
 body {
