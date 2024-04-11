@@ -1,4 +1,4 @@
-import { Button } from '@uikit/Button/Button/Button.styled';
+import { Button } from '@uikit/Button/BaseButton/Button.styled';
 import styled from 'styled-components';
 
 export const EditButtonEl = styled(Button)`
