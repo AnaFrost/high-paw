@@ -1,12 +1,11 @@
 import { Button } from '@uikit/Button/BaseButton/Button.styled';
 import styled from 'styled-components';
 
-export const NewAvatar = styled(Button)`
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
+export const LikeButtonEl = styled(Button)`
+	border: none;
+	background-color: transparent;
 	transition: 0.3s transform ease-in;
+	padding: 0;
 
 	&:hover {
 		transform: scale(1.1);
