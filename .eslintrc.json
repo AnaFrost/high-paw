@@ -21,6 +21,7 @@
 			"alias": {
 				"map": [
 					["@store", "./src/app/store/"],
+					["@services", "./src/app/services/api/index.ts"],
 					["@widgets", "./src/widgets"],
 					["@entities", "./src/entities/"],
 					["@features", "./src/features/"],

@@ -18,6 +18,7 @@
 		"baseUrl": "./src",
 		"paths": {
 			"@store/*": ["app/store/*"],
+			"@services": ["app/services/api/index.ts"],
 			"@widgets/*": ["widgets/*"],
 			"@entities/*": ["entities/*"],
 			"@features/*": ["features/*"],
