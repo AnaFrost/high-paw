@@ -13,6 +13,7 @@ export default defineConfig({
 		alias: {
 			'@store': path.resolve(__dirname, 'src/app/store/'),
 			'@services': path.resolve(__dirname, 'src/app/services/api/index.ts'),
+			'@constants': path.resolve(__dirname, 'src/app/constants/constants.ts'),
 			'@widgets': path.resolve(__dirname, 'src/widgets/'),
 			'@entities': path.resolve(__dirname, 'src/entities/'),
 			'@features': path.resolve(__dirname, 'src/features/'),

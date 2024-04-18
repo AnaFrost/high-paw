@@ -19,6 +19,7 @@
 		"paths": {
 			"@store/*": ["app/store/*"],
 			"@services": ["app/services/api/index.ts"],
+			"@constants": ["app/constants/constants.ts"],
 			"@widgets/*": ["widgets/*"],
 			"@entities/*": ["entities/*"],
 			"@features/*": ["features/*"],

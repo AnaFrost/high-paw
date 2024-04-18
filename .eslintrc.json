@@ -22,6 +22,7 @@
 				"map": [
 					["@store", "./src/app/store/"],
 					["@services", "./src/app/services/api/index.ts"],
+					["@constants", "./src/app/constants/constants.ts"],
 					["@widgets", "./src/widgets"],
 					["@entities", "./src/entities/"],
 					["@features", "./src/features/"],
