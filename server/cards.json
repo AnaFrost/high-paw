@@ -1,0 +1,49 @@
+{
+	"cards": [
+		{
+			"id": 1,
+			"image": "../src/shared/images/goliaf.jpg",
+			"text": "I`m sweety chocolate maffin"
+		},
+		{
+			"id": 2,
+			"image": "../src/shared/images/lakita1.jpg",
+			"text": "i`m Luckyy and i`m cute"
+		},
+		{
+			"id": 3,
+			"image": "../src/shared/images/prudence1.jpg",
+			"text": "Hey, find me :з"
+		},
+		{
+			"id": 4,
+			"image": "../src/shared/images/myaka1.jpg",
+			"text": "Meowlax"
+		},
+		{
+			"id": 5,
+			"image": "../src/shared/images/prudence2.jpg",
+			"text": "Puppy U・ᴥ・U"
+		},
+		{
+			"id": 6,
+			"image": "../src/shared/images/rats2.jpg",
+			"text": "Rats <3"
+		},
+		{
+			"id": 7,
+			"image": "../src/shared/images/lakky2.jpg",
+			"text": "Nya nya"
+		},
+		{
+			"id": 8,
+			"image": "../src/shared/images/lakky1.jpg",
+			"text": ":3"
+		},
+		{
+			"id": 9,
+			"image": "../src/shared/images/myaka2.jpg",
+			"text": "O_O"
+		}
+	]
+}

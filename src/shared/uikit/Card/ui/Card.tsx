@@ -1,14 +1,9 @@
 import { CardActions, CardContent, CardMedia, Card as CardMui } from '@mui/material';
 import { LikeButton } from '@uikit/Button/ui/LikeButton/LikeButton';
 import { CardDiscription } from './Card.styled';
+import { ICardData } from './types';
 
-interface IProps {
-	id: number;
-	image: string;
-	text: string;
-}
-
-export const Card = ({ id, image, text }: IProps) => {
+export const Card = ({ id, image, text }: ICardData) => {
 	return (
 		<CardMui key={id} sx={{ borderRadius: '10px', width: '282', height: '362' }}>
 			<CardMedia
