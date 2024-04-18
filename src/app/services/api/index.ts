@@ -1,1 +1,0 @@
-export { getCardsList } from './getCardsList';
